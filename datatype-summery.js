@@ -24,3 +24,30 @@ const myFunction = function(){
 
 console.log(typeof myObj);
 console.log(typeof myFunction);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+
+//             memory
+
+//  stack (Primitive)  ,   heap (Non Primitive)
+let myname="ashik"
+let nickname=myname
+nickname='billa'
+console.log(nickname);
+console.log(typeof nickname);
+
+
+let userOne={
+    name: "sekh",
+    num: 8967665685
+}
+
+let userTwo=userOne
+
+userTwo.name="billa"
+
+console.log( userOne);
+console.log(userTwo);
